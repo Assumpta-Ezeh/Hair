@@ -1,0 +1,49 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 246, 206);
+}
+body h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: darkred;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.container h4{
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-size: 30px;
+}
+.box1{
+    width: 450px;
+    height: 550px;
+    background-color: goldenrod;
+}
+.box2{
+    width: 450px;
+    height: 550px;
+    background-color: goldenrod;
+}
+.box3{
+    width: 450px;
+    height: 550px;
+    background-color: goldenrod;
+}
+.container p{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 40px;
+}

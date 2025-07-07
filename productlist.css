@@ -1,0 +1,258 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aliceblue;
+    display: flex;
+    justify-content: space-between; */
+}
+.container{
+
+}
+h2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.image1{
+    display: flex;
+    margin-left: 30px;
+}
+.image1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+.cart1{
+   width: 120px;
+   height: 30px;
+   border: 1px solid white;
+   border-radius: 20px;
+   background-color: white; 
+   margin-left: 60px;
+   margin-top: -1px;
+   display: flex;
+   justify-content: space-between;
+}
+.cart1:hover{
+    border: solid hsl(14, 86%, 42%);
+}
+.cart1 img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.cart1 h6{
+    margin-top: 5px;
+    margin-right: 20px;
+    color: hsl(14, 65%, 9%);
+    }
+.cart1 a{
+    text-decoration: none;
+    }
+.cart1 h6:hover{
+    color: hsl(14, 86%, 42%);
+}
+.image1 p{
+    margin-left: 30px;
+    font-size: x-small;
+    color: hsl(12, 20%, 44%);
+}
+.image1 h5{
+    margin-top: -8px;
+    margin-left: 30px;
+    color: hsl(14, 65%, 9%);
+}
+.image1 b{
+    margin-top: -100px;
+    margin-right: 10px; 
+    color: hsl(14, 86%, 42%);
+    font-size: small;
+}
+.image2{
+    display: flex;
+    margin-left: 30px;
+}
+.image2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+.image2 p{
+    margin-left: 30px;
+    font-size: x-small;
+    color: hsl(12, 20%, 44%);
+}
+.image2 h5{
+    margin-top: -8px;
+    margin-left: 30px;
+    color: hsl(14, 65%, 9%);
+}
+.image2 b{
+    margin-top: -100px;
+    margin-right: 10px; 
+    color: hsl(14, 86%, 42%);
+    font-size: small;
+}
+.cart2 {
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white; 
+    margin-left: 60px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: space-between;  
+}
+.cart2:hover{
+  border: solid hsl(14, 86%, 42%)
+}
+.cart2 img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.cart2 h6{
+    margin-top: 5px;
+    margin-right: 20px;
+    color: hsl(14, 65%, 9%);
+}
+.cart2 a{
+    text-decoration: none;
+}
+.cart2 h6:hover{
+    color: hsl(14, 86%, 42%);
+}
+.image3{
+    display: flex;
+    margin-left: 30px;
+}
+.image3 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+.image3 p{
+    margin-left: 30px;
+    font-size: x-small;
+    color: hsl(12, 20%, 44%);
+}
+.image3 h5{
+    margin-top: -8px;
+    margin-left: 30px;
+    color: hsl(14, 65%, 9%);
+}
+.image3 b{
+    margin-top: -0px;
+    margin-right: 10px; 
+    color: hsl(14, 86%, 42%);
+    font-size: small;
+}
+.cart3 {
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white; 
+    margin-left: 60px;
+    margin-top: -2px;
+    display: flex;
+    justify-content: space-between;  
+}
+.cart3:hover{
+    border: solid hsl(14, 86%, 42%);
+}
+.cart3 img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.cart3 h6{
+    margin-top: 5px;
+    margin-right: 20px;
+    color: hsl(14, 65%, 9%);
+}
+.cart3 a{
+    text-decoration: none;
+}
+.cart3 h6:hover{
+    color: hsl(14, 86%, 42%);
+}
+.box1{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 500px;
+}
+.box1 h5{
+    margin-left: 20px;
+    font-size: medium;
+    color: hsl(14, 86%, 42%);
+}
+.box1 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+}
+.box1 p{
+    font-size: x-small;
+    margin-left: 50px;
+    color: hsl(12, 20%, 44%);
+}
+.maq{
+    width: 100vw;
+    height: 50px;
+    background-color: hsl(14, 86%, 42%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.maq marquee{
+    margin-top: 15px;
+    }
+.maq a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    }
+@media (max-width: 600px) {
+    body{
+        flex-direction: column;
+    }
+    .image1{
+        flex-direction: column;
+    }
+    .image2{
+        flex-direction: column;
+    }
+    .image3{
+        flex-direction: column;
+    }
+    .box1{
+        margin-left: 50px;
+        width: 200px;
+        height: 200px;
+        margin-top: -10px;
+    }
+    .box1 img{
+        margin-left: 55px;
+    }
+    .box1 p{
+        margin-left: 25px;
+    }
+    .maq{
+        
+    }
+}
